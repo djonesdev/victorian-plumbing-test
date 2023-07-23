@@ -14,18 +14,20 @@ export default function ProductCard({ product }) {
       </div>
       <div className="content">
         <img
-          style={{ width: 75 }}
           src={product.brand.brandImage.url}
           alt={product.brand.brandImage.attributes.imageAltText}
         />
-        <p className="product-name">{product.productName}</p>
-        <Text type="warning" size="lrg">£{product.price.priceIncTax}</Text>
+        <Text type="primary" size="md">
+          {product.productName}
+        </Text>
+        <Text type="warning" size="lrg">
+          £{product.price.priceIncTax}
+        </Text>
         {product.price.isOnPromotion && (
           <Text type="secondary" size="md" className="product-sale-price">
             Was £{product.price.wasPriceIncTax}
           </Text>
         )}
-        <Text type="warning" size="lrg">Stock Status: {product.stockStatus.status}</Text>
       </div>
     </div>
   );

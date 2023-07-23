@@ -27,7 +27,7 @@ export default function PriceRangeFilter({ getProductsByFilter }) {
   return (
     <div className="filter-section-price-range">
       <div>
-        <span className="price-input-label">£</span>
+        <span className="price-input-label">£ </span>
         <input
           value={minAmount}
           type="number"
@@ -37,7 +37,7 @@ export default function PriceRangeFilter({ getProductsByFilter }) {
         />
       </div>
       <div>
-        <span className="price-input-label">to</span>
+        <span className="price-input-label">to </span>
         <input
           value={maxAmount}
           type="number"

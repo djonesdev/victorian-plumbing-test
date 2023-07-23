@@ -21,7 +21,7 @@ export default function FacetOptionList({ facet, getProductsByFilter }) {
 
   return (
     <div className="filter-section">
-      <p className="filter-subtitle">{displayName}</p>
+      <Text type="primary" size="lrg" className="filter-subtitle">{displayName}</Text>
       {identifier === "prices" && (
         <PriceRangeFilter getProductsByFilter={getProductsByFilter} />
       )}
