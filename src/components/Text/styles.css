@@ -1,0 +1,29 @@
+.text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.size-sm {
+    font-size: 0.875rem;
+}
+
+.size-md {
+    font-size: 1rem;
+}
+
+.size-lrg {
+    font-size: 1.5rem;
+}
+
+.color-primary {
+    color: var(--primary-text);
+}
+
+.color-secondary {
+    color: var(--secondary-text);
+}
+
+.color-warning {
+    color: var(--warning-text);
+}

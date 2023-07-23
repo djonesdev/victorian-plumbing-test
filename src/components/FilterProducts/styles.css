@@ -1,0 +1,22 @@
+.filter-container {
+  padding: 1rem;
+}
+
+.filter-title {
+  color: var(--primary-text);
+  font-size: 1.5rem;
+}
+
+.price-filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.facet-option-container {
+  display: flex;
+}
+
+.facet-option-container {
+  display: flex;
+}

@@ -1,0 +1,52 @@
+:root {
+  /* Backgrounds */
+  --primary-background: rgb(242, 240, 235);
+  --secondary-background: rgb(252, 252, 252);
+  --inactive-background: rgb(111, 111, 111);
+
+  /* Text */
+  --primary-text: rgb(34, 25, 36);
+  --secondary-text: rgb(111, 111, 111);
+  --tertiary-text: rgb(252, 252, 252);
+  --warning-text: rgb(207, 0, 16);
+}
+
+.app-container {
+  background-color: var(--primary-background);
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "filters products";
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2rem;
+}
+
+.filter-list {
+  grid-area: filters;
+}
+
+.products-grid {
+  grid-area: products;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+}
+
+.load-more-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 0.1875rem;
+  background-color: var(--secondary-text);
+  border: 1px solid var(--secondary-text);
+  color: var(--secondary-background);
+  margin: 2rem;
+  font-size: 0.875rem;
+}
+
+.load-more-button:hover {
+  background: black;
+  cursor: pointer;
+}

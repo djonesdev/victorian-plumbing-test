@@ -1,0 +1,43 @@
+.product-card__container {
+  background: var(--secondary-background);
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  padding: 2rem;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.product-name {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--primary-text);
+}
+
+.product-price {
+  color: var(--warning-text);
+  font-size: 2.125rem;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Filson Soft", sans-serif;
+  margin-right: 0.3125rem;
+  margin-bottom: 0.3125rem;
+  margin-top: 0;
+}
+
+.product-sale-price {
+  text-decoration: line-through;
+}

@@ -1,0 +1,26 @@
+.dropdown-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-filter-modal-button {
+  cursor: pointer;
+  height: fit-content;
+  background-color: var(--secondary-background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: var(--primary-text);
+  font-weight: bold;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.total-products-text {
+  color: var(--primary-text);
+}
